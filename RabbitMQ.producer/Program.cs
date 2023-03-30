@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 
 var factory = new ConnectionFactory();
-factory.Uri = new Uri("amqps://hrpplbdi:EDX3pkhmXkX0xUZq4HuGcOA5ASB5Ykpu@whale.rmq.cloudamqp.com/hrpplbdi");
+factory.Uri = new Uri("amqps://hrpplbdi:EDX***************************************");
 
 using var connection = factory.CreateConnection();
 var channel = connection.CreateModel();
